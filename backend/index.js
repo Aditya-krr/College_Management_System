@@ -10,6 +10,8 @@ app.use(cors({
   origin: process.env.FRONTEND_API_LINK
 }));
 
+app.options("*", cors());
+
 app.use(express.json()); //to convert request data to json
 
 app.get("/", (req, res) => {
