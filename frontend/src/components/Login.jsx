@@ -42,7 +42,7 @@ const Login = () => {
       <iframe
         className="absolute inset-0 w-[99%] h-[113%] object-cover "
         src="https://www.canva.com/design/DAGlhylAn-8/eybeqMIO3E7n0r3stgZL5A/view?embed"
-        alt="Background"
+        
       />
 
       {/* Slide-in Form Container */}
