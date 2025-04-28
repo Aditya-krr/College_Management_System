@@ -6,6 +6,7 @@ import mystore from "./redux/store";
 import StudentHome from "./Screens/Student/Home";
 import FacultyHome from "./Screens/Faculty/Home";
 import AdminHome from "./Screens/Admin/Home";
+import NotFound from "./components/NotFound";
 
 
 
@@ -21,7 +22,7 @@ const App = () => {
             <Route path="student" element={<StudentHome />} />
             <Route path="faculty" element={<FacultyHome />} />
             <Route path="admin" element={<AdminHome />} />
-       
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
       </Provider>
